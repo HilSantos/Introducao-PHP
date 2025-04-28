@@ -20,3 +20,19 @@ $sobrenome = $_GET['ln'];
 <a ref="pg1.php">Voltar</a>
 </h1>
 -- O mesmo exemplo anterior pelo arquivo pg2 --
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Outro exemplo --
+
+<?php
+echo("<h1>Olá Mundo!!!</h1>");
+echo("<br>");
+
+$nome = "Louis Johanson";
+$msg = "Boa tarde";
+?>
+
+<?php echo($msg); ?>
+<br>
+<?= $msg ?>

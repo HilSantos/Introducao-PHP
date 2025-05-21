@@ -1,6 +1,23 @@
 # Introducao-PHP
 Criação de variaveis no PHP
 
+//é importante entender o que significa o termo "CRUD"//
+//CRUD significa Create (Criar), Read (Ler), Update (Atualizar) e Delete (Apagar), e é um acrónimo que descreve as quatro operações fundamentais para gerir dados em um sistema ou banco de dados.// 
+//Estas operações são essenciais para qualquer aplicação que trabalhe com dados persistentemente armazenados, como bancos de dados relacionais ou NoSQL.//
+
+//Em detalhe://
+//Create (Criar): Permite inserir novos registos ou elementos de dados no sistema ou banco de dados.//
+//Read (Ler): Permite consultar, visualizar ou recuperar dados existentes no sistema ou banco de dados.//
+//Update (Atualizar): Permite modificar dados existentes, alterando os seus valores.//
+//Delete (Apagar): Permite remover dados do sistema ou banco de dados.//
+
+//Exemplo prático://
+//Imagine um sistema de gestão de biblioteca, as operações CRUD seriam utilizadas para:// 
+//Create (Criar): Cadastrar um novo livro no sistema.//
+//Read (Ler): Consultar a lista de livros disponíveis ou encontrar um livro específico.//
+//Update (Atualizar): Editar informações de um livro existente, como o título ou o autor.//
+//Delete (Apagar): Excluir um livro do catálogo, por exemplo, se o livro foi perdido ou danificado.//
+
 <form action="pg2.php" method="get">
     <label>Digite seu nome:</label>
     <input type="text" name="user" placeholder="Digite seu nome">
